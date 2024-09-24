@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #343541; /* Grey background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #D1D5DB; /* Light grey text for better contrast */
+}
+
+.chat-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #1e1e1e; /* Dark background for chat container */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.chat-log {
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.chat-log div {
+    margin-bottom: 10px;
+}
+
+.chat-log strong {
+    color: #ffffff; /* White color for bot and user names */
+}
+
+.input-container {
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #2c2c2c; /* Slightly lighter grey for input container */
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+}
+#payment-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#payment-btn:hover {
+    background-color: darkblue;
+}
+
+.language-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+.lang-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.lang-btn:hover {
+    background-color: darkblue;
+}
